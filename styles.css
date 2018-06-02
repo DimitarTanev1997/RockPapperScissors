@@ -1,0 +1,44 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    flex-direction: column;
+    font-size: 2em;
+}
+.btn {
+    border: solid black;
+    margin: 15px;
+    padding: 3px;
+}
+.btn :hover {
+    color: aliceblue;
+}
+.tabs {
+    border: solid black;
+    margin: 15px;
+    padding: 3px;
+    text-align: center;
+    
+}
+#scoreboard {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+}
+#pc {
+    color: red;
+    font-size: 1em;
+}
+#you {
+    color:green;
+    font-size: 1em;
+}
+#game {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
